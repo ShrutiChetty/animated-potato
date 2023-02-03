@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Word Game</title>
+        <script src="p5.js"></script>
+        <script src="p5.dom.min.js"></script>
+        <script src="p5.sound.min.js"></script>
+        <script src="p5.play.js"></script>
+        <script src="matter.js"></script>
+       
+        <link rel="stylesheet" href="style.css">
+    
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+  
+        <script>
+          var firebaseConfig = {
+              apiKey: "AIzaSyBLpu6dJwpTEv7aNXZFGPfUFrX5XnCUYDk",
+              authDomain: "word-game-9aeb9.firebaseapp.com",
+              databaseURL: "https://word-game-9aeb9-default-rtdb.firebaseio.com",
+              projectId: "word-game-9aeb9",
+              storageBucket: "word-game-9aeb9.appspot.com",
+              messagingSenderId: "326229550455",
+              appId: "1:326229550455:web:40b705ba1adddfea192d72",
+              measurementId: "G-EP13NC2XET"
+            };
+
+            firebase.initializeApp(firebaseConfig);
+        </script>
+    </head>
+    <body>
+      <script src="Player.js"></script>
+      <script src="Input.js"></script>
+      <script src="Asteroid.js"></script>
+      <script src="sketch.js"></script>
+    </body>
+</html>
